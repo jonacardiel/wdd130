@@ -1,0 +1,96 @@
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  
+  
+  /* Centering elements within their parent elements */
+  
+  nav a,
+  #hero-msg h1,
+  #hero-msg h4,
+  .button-box,
+  main section {
+    text-align: center;
+  }
+  
+  /* Adding a container for our message background */
+  
+  #background {
+    height: 725px;
+  }
+  
+  /* Setting background colors */
+  
+  body {
+    background-color: #f1f1f1;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav {
+    background-color: #ddd;
+  }
+  
+  nav a:hover {
+    background-color: #bbb;
+  }
+  
+  #hero-msg {
+    background-color: #fff;
+  }
+  
+  #hero-msg h1 {
+    color: #333;
+  }
+  
+  #hero-msg h4 {
+    color: #666;
+  }
+  
+  .button-box {
+    background-color: #333;
+  }
+  
+  .button-box a {
+    color: #fff;
+  }
+  
+  .main-section {
+    background-color: #eee;
+  }
+  
+  .rapids-card {
+    background-color: #fff;
+  }
+  
+  .rapids-card h2 {
+    color: #333;
+  }
+  
+  .msg {
+    background-color: #f7f7f7;
+  }
+  
+  .msg h2 {
+    color: #333;
+  }
+  
+  .msg p {
+    color: #666;
+  }
+  
+  .msg a {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .mountains {
+    background-color: #ddd;
+  }
+  
