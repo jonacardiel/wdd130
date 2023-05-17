@@ -1,0 +1,28 @@
+.container {
+    background-color: #5b5b5b;
+    text-align: center;
+  }
+  
+  .top-image {
+    display: block;
+    margin: 0 auto;
+    width: 104pc;
+    
+  }
+  
+  .bottom-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+  }
+  
+  .bottom-image {
+    margin: 0 50px;
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+    border: 20px solid rgb(60, 58, 58);
+  }
+  
