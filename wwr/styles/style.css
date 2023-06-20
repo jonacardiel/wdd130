@@ -189,3 +189,40 @@ footer {
   opacity: .6;
   transform: scale(1.1);
 }
+
+/* Existing CSS code... */
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.text-space {
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.image-space {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.service-title {
+  text-align: center;
+  padding: 20px;
+}
+
+.service-text {
+  padding: 20px;
+  text-align: center;
+  line-height: 2;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: lightgray;
+}
