@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+}
+
+.nav-tab {
+  background-color: #82E0AA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-right: auto;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1; /* Expand the remaining space to center the links */
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  margin: 0 200px; /* Increase the margin for more space */
+  margin-left: 50px;
+  font-size: 200%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  height: 100vh;
+}
+
+.left-side, .right-side {
+  background-color: #027381;
+}
+
+.middle {
+  background-color: #196F3D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #FFFFFF;
+}
+
+.title {
+  font-size: 36px;
+  margin-top: 20px;
+  color: #F4D03F;
+}
+
+.welcome-message {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px; /* Adjust the margin-bottom value as needed */
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.hottest-build-image {
+  max-width: 50%;
+  margin-right: 50%;
+}
+
+.trasnportation1 {
+  max-width: 50%;
+  margin-right: 50%;
+}
+
+.example {
+  max-width: 50%;
+  margin-left: 50%;
+}
+
+.footer {
+  background-color: #82E0AA; /* Same color as the header */
+  padding: 50px;
+  text-align: center;
+}
+
+.contact-link {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 50px;
+}
