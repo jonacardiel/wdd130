@@ -44,8 +44,8 @@ body {
   background-color: #196F3D;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 20px;
   color: #FFFFFF;
 }
@@ -54,6 +54,7 @@ body {
   font-size: 36px;
   margin-top: 20px;
   color: #F4D03F;
+  align-self: center;
 }
 
 .welcome-message {
@@ -61,9 +62,16 @@ body {
   margin-top: 10px;
   margin-bottom: 20px; /* Adjust the margin-bottom value as needed */
 }
-
+.welcome-message-example {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  align-self: flex-start;
+  width: 50%;
+}
 .subtitle {
   font-size: 24px;
+  align-self: center;
 }
 
 .hottest-build-image {
