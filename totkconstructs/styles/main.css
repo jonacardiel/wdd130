@@ -34,6 +34,11 @@ body {
   margin-left: 50px;
   font-size: 200%;
   font-family: Hylia,sans-serif;
+  padding: 15px 30px;
+}
+.nav-links a:hover{
+  background-color: #F4D03F;
+  color: black;
 }
 
 .grid-container {
